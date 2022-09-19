@@ -33,6 +33,8 @@ function what() {
     ;
 }
 
+    //end//
+
 
 button.addEventListener ('click', what);
 
@@ -42,3 +44,23 @@ const song = 'Fight the Youth'
     , output = `I like the song ${song}. I gave it a score of ${score/highestScore * 100}%.}`
     ;
     console.log(output);
+
+    //end//
+console.log ( 'B' == 2 );
+
+let hour = 11
+    ;
+
+if (hour < 10) {
+    greeting = 'good day'
+    ;
+} else if (hour < 20) {
+    greeting = 'good afternoon'
+    ;
+} else {
+    greeting = 'good night'
+    ;
+}
+
+console.log(greeting)
+    ;
